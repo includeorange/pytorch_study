@@ -69,6 +69,6 @@ def def03():
 
 #测试函数
 if __name__ == '__main__':
-    def01()
+    #def01()
     def02()
-    def03()
+    #def03()
