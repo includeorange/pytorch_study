@@ -24,7 +24,7 @@ def dm02():
     #torch.initial_seed()#默认采用当前系统时间戳作为随机种子
     torch.manual_seed(100)
     #生成随机张量：
-    t1 = torch.rand(size=(2,3))#两行三列随机张量
+    t1 = torch.rand(size(2,3))#两行三列随机张量
     print(f't1:{t1},type:{type(t1)}')
     print('-' * 10)
     t2 = torch.randn(size=(3,5))#两行三列正态分布随机张量
