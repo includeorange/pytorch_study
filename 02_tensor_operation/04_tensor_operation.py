@@ -22,5 +22,9 @@ print(t1.mean(dim = 1))#按行求平均值
 print(t1.mean())#所有元素求平均值
 print('-------------------')
 
+#pow() sqrt() exp() log() log2() log10()
+
+
+
 
 
