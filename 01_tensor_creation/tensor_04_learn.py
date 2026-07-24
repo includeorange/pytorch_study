@@ -1,6 +1,6 @@
 #创建指定类型张量或张量类型转换
 #torch.tensor(,dtype = )逗号前面放数据，dtype制定数据类型
-#t2 = t1.type(tensor.dtype)张量类型转换方法一
+#t2 = t1.type(torch.dtype)张量类型转换方法一
 #t2 = t1.int()    ... 张量类型转换方法二
 
 import torch
